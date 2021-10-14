@@ -1,0 +1,30 @@
+#prof-pic {
+	width: 40px;
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 20px;
+}
+
+#prof-card {
+	padding: 5px 5px 5px 5px;
+}
+#handle {
+  color: gray;
+  font-size: 14px;
+}
+
+#prof-stats {
+	font-size: 10px;
+  font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#signupError:hover {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.prof-value {
+	font-weight: normal;
+}

@@ -1,0 +1,12 @@
+
+<div class="card" style="width=20rem;">
+		<div id="prof-card" class="card-body">
+			<img *ngIf="signedUp === true" id="prof-pic" src="{{currentUser.displayImg}}" alt="profile pic">
+			<h6 *ngIf="signedUp === true" class="card-title">{{currentUser.displayName}}<br><span id="handle">{{currentUser.handle}}</span></h6>
+		<div>
+			<h6 routerLink = '' id="signupError" *ngIf="signedUp === false">Please sign up to see your profile information</h6>
+			<hr>
+			<p id="prof-stats">Tweets: <span class="prof-value">5</span> | Following: <span class="prof-value">289</span> | Followers: <span class="prof-value">178</span></p>
+		</div>
+	</div>
+</div>

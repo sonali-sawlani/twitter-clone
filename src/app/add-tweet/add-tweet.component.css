@@ -1,0 +1,27 @@
+img {
+	height: 80px;
+	padding-right: 0px;
+	margin: 5px 0px 5px 5px;
+}
+
+#whatsHappening {
+	width: 110%;
+	height: 80px;
+	padding-left: 5px;
+	margin: 5px 5px 5px 0px;
+}
+
+.links {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 2px;
+}
+
+#addTweet {
+	background-color: #E8F5FD;
+}
+
+button {
+margin-top: 4px;
+width: 100%;
+}

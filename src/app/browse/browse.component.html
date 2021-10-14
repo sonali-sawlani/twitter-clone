@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<app-profile-info></app-profile-info>
+			<app-who-to-follow></app-who-to-follow>
+			<app-trends></app-trends>
+		</div>
+		<div class="col-sm-8">
+			<app-add-tweet (sendTweet)="addTweet($event)"></app-add-tweet>
+			<br>
+			<app-tweet-list></app-tweet-list>
+		</div>
+	</div>
+</div>

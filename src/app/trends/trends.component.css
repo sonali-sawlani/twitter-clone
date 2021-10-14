@@ -1,0 +1,21 @@
+p {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#p-header {
+	font-size: 16px;
+}
+
+#trends-card {
+	margin-top: 10px;
+}
+.card-body {
+	padding: 5px 5px 5px 5px;
+}
+
+#trends-header {
+	margin-top: 5px;
+	margin-left: 5px;
+}

@@ -1,0 +1,38 @@
+.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#tweet-card:hover {
+	background-color: #e6ecf0;
+}
+
+img#tweetImage {
+	float: left;
+	width: 75px;
+	height: 75px;
+	margin-right: 10px;
+}
+
+.interaction {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#handle {
+	color: gray;
+	font-size: 20px;
+}
+
+.card-text {
+	padding-top: 10px;
+}
+
+#dates {
+	font-size: 12px;
+}
+
+#tweetContentImage {
+	width: 150px;
+	height: 150px;
+}

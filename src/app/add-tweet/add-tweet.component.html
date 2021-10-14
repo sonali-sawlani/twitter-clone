@@ -1,0 +1,19 @@
+<div id="addTweet" class="card">
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="{{currentUser.displayImg}}" alt="profile pic">
+		</div>
+		<div class="col-sm-8">
+			<input class="form-control form-control-sm" id="whatsHappening" #tweetDescription placeholder="What's happening?">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6">
+			<input class="form-control form-control-sm links" #image placeholder="image link">
+		</div>
+		<div class="col-sm-6">
+			<input class="form-control form-control-sm links" #link placeholder="content link">
+		</div>
+	</div>
+	<button class="btn btn-primary" (click)="submitForm(tweetDescription.value, image.value, link.value); tweetDescription.value=''; image.value=''; link.value='';">Tweet</button>
+</div>

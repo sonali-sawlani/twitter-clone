@@ -1,0 +1,35 @@
+#follow-card {
+	margin-top: 10px;
+}
+
+#follow-img {
+	width: 40px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 2px;
+}
+
+.card-body {
+	padding: 5px 5px 5px 5px;
+}
+
+#handle {
+	color: gray;
+	font-size: 12px;
+}
+
+#follow-header {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#name:hover {
+	color: #0645AD;
+	text-decoration: underline;
+}
+
+#find-people {
+	font-size: 12px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+<nav class="navbar fixed-top navbar-expand-sm navbar-light bg-white">
+  <a class="navbar-brand" routerLink="">
+		<img id="logo" src="assets/twitter-logo.png" alt="twitter logo">
+	</a>
+  <div>
+    <div class="navbar-nav fixed">
+      <a class="nav-item nav-link active" routerLink="browse">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" routerLink="browse">Moments</a>
+      <a class="nav-item nav-link" routerLink="browse">Notifications</a>
+      <a class="nav-item nav-link" routerLink="browse">Messages</a>
+      <a *ngIf="currentUser.userName !== ''" class="nav-item nav-link" routerLink="" (click)="logoutClick()">Logout</a>
+    </div>
+  </div>
+</nav>
